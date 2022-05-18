@@ -1,0 +1,31 @@
+@use "../costum";
+@use '../component/mixin' as *;
+.introSection {
+  &__intro {
+    h1 {
+      font-weight: bold;
+      font-size: 80px;
+      margin: 5rem auto;
+
+      span {
+        color: #c24b71;
+      }
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+
+  button {
+    @include background;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    border: none;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    margin: 44px 0 44px 0;
+  }
+}

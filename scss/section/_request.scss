@@ -1,0 +1,25 @@
+.consultation {
+  box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border-radius: 100px;
+  margin: auto;
+
+  input {
+    border: solid 1px #ccc;
+    width: 20rem;
+    border-radius: 30px;
+    padding: 0.8rem;
+  }
+
+  button {
+    border: none;
+    background-color: #c24b71;
+    padding: 0.8rem 2rem;
+    color: white;
+    border-radius: 30px;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+}

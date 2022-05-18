@@ -1,0 +1,22 @@
+.comments {
+  margin: 5rem auto;
+  h2 {
+    border-bottom: 1px solid #ddd;
+    line-height: 0.1em;
+    margin-bottom: 5rem;
+
+    span {
+      background: #fff;
+      padding: 0 10px;
+    }
+  }
+
+  &__comment {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 40px 40px 0 0;
+    padding: 1rem;
+  }
+
+
+}

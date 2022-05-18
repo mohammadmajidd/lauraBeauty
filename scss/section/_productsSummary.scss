@@ -1,0 +1,30 @@
+.productSummary{
+  background-color: #c24b71;
+  h2{
+    border-bottom: 1px solid #ddd;
+    line-height: 0.1em;
+    margin-bottom: 5rem;
+    span {
+      background: #fff;
+      padding: 0 10px;
+    }
+  }
+  .imageContainer {
+    &__counter {
+      font-weight: bold;
+      font-size: 120px;
+      color: #cccccc;
+
+      span {
+        font-size: 60px;
+      }
+    }
+
+    .item {
+      font-weight: bold;
+      &__pink {
+        color: #c24b71;
+      }
+    }
+  }
+}

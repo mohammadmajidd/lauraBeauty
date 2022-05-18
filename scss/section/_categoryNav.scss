@@ -1,0 +1,22 @@
+@use "../costum";
+
+.products {
+  background-color: #f7f3f0;
+
+  h2 {
+    text-align: center;
+  }
+
+}
+
+.categories {
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  width: 70rem;
+  margin: auto;
+  font-size: 16px;
+  justify-content: space-between;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 30px;
+}

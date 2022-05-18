@@ -1,0 +1,22 @@
+@use "../costum";
+.products{
+  margin: 5rem auto;
+  &__productInfo{
+    background-color: #f8f8f8;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    button{
+      background-color: white;
+      color: #c24b71;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}

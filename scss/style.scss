@@ -1,0 +1,23 @@
+@use "costum";
+
+//IMPORT COMPONENT
+@use "component/button";
+@use "component/mixin";
+@use "component/typography";
+//IMPORT SECTION
+@use "section/navbar";
+@use "section/intro";
+@use "section/collection";
+@use "section/productsSummary";
+@use "section/categoryNav";
+@use "section/products";
+@use "section/request";
+@use "section/comments";
+@use "section/lauraBeauty";
+@use "section/footer";
+body{
+  //width: 1920px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+

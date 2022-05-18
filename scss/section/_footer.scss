@@ -1,0 +1,18 @@
+.footer {
+  background-color: #f7f3f0;
+  &__logo{
+    display: flex;
+    justify-content: center;
+    img{
+      width: 5rem;
+    }
+  }
+  &__nav {
+    display: flex;
+    justify-content: center;
+  }
+  &__iconSvg{
+    display: flex;
+    justify-content: center;
+  }
+}
