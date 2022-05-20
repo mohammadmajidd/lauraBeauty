@@ -11291,8 +11291,18 @@ textarea.form-control-lg {
 .products {
   margin: 5rem auto;
 }
-.products__productCard {
-  border-radius: 50px;
+.products__cardHeader span {
+  background-color: #c24b71;
+  font-size: 8px;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #fff;
 }
 .products__productInfo {
   background-color: #f8f8f8;
