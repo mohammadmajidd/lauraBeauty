@@ -1,4 +1,4 @@
-@use "../costum";
+@use "../costum" as *;
 @use '../component/mixin' as *;
 .introSection {
   &__intro {
@@ -18,11 +18,10 @@
   }
 
   button {
-    @include background;
+    @include btn;
     font-weight: 600;
     letter-spacing: 0.96px;
     border: none;
-    color: white;
     padding: 10px 25px 10px 25px;
     border-radius: 25px;
     text-transform: capitalize;

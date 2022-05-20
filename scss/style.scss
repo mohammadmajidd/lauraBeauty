@@ -4,7 +4,10 @@
 @use "component/button";
 @use "component/mixin";
 @use "component/typography";
+@use "component/swiper";
+@use "component/cardComment";
 //IMPORT SECTION
+@use "section/landingPage";
 @use "section/navbar";
 @use "section/intro";
 @use "section/collection";
