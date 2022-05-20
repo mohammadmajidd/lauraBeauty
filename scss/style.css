@@ -11291,6 +11291,20 @@ textarea.form-control-lg {
 .products {
   margin: 5rem auto;
 }
+.products__productCard {
+  width: 16rem;
+  height: 20rem;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+.products__imageCard {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+}
+.products__cardHeader {
+  padding: 0.5rem;
+}
 .products__cardHeader span {
   background-color: #c24b71;
   font-size: 8px;
@@ -11307,20 +11321,43 @@ textarea.form-control-lg {
 .products__productInfo {
   background-color: #f8f8f8;
   border-radius: 30px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: left;
+  color: #aaa;
 }
 .products__footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
+.products__footer span {
+  font-weight: bold;
+  color: black;
+}
 .products__footer button {
   background-color: white;
   color: #c24b71;
   border-radius: 5px;
   border: none;
+}
+
+.card-body h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  color: #271d20;
 }
 
 .consultation {

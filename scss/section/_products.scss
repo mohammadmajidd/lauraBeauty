@@ -1,8 +1,25 @@
 @use "../costum";
-.products{
+
+.products {
   margin: 5rem auto;
-  &__cardHeader{
-    span{
+
+  &__productCard {
+    width: 16rem;
+    height: 20rem;
+    border-radius: 30px;
+    margin-left: 30px;
+  }
+
+  &__imageCard {
+    text-align: center;
+    margin: auto;
+    width: 10rem;
+  }
+
+  &__cardHeader {
+    padding: 0.5rem;
+
+    span {
       background-color: #c24b71;
       font-size: 8px;
       border-radius: 8px;
@@ -16,22 +33,54 @@
       color: #fff;
     }
   }
-  &__productInfo{
+
+  &__productInfo {
     background-color: #f8f8f8;
     border-radius: 30px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-align: left;
+    color: #aaa;
   }
-  &__footer{
+
+  &__footer {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    button{
+
+    span {
+      font-weight: bold;
+      color: black;
+    }
+
+
+    button {
       background-color: white;
       color: #c24b71;
       border-radius: 5px;
       border: none;
     }
+  }
+}
+
+.card-body {
+
+  h5 {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    //text-align: left;
+    color: #271d20;
   }
 }

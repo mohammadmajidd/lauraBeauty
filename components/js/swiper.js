@@ -6,30 +6,28 @@ var swiper = new Swiper(".mySwiper", {
     },
     breakpoints: {
         540: {
-            slidesPerView: 2,
-            spaceBetween: 20
+            slidesPerView: 1.5,
+            spaceBetween: 40
         },
-        // when window width is >= 480px
-        576: {
-            slidesPerView:3,
+        726: {
+            slidesPerView:2,
             spaceBetween: 30
         },
-        // when window width is >= 640px
-        720: {
-            slidesPerView: 3,
-            spaceBetween: 40
-        },
         960: {
-            slidesPerView: 3,
-            spaceBetween: 40
+            slidesPerView: 2.5,
+            spaceBetween: 50
         },
         1140: {
+            slidesPerView: 3,
+            spaceBetween: 10
+        },
+        1320: {
             slidesPerView: 4,
             spaceBetween: 40
         },
-        1320: {
+        1400: {
             slidesPerView: 5,
-            spaceBetween: 40
+            spaceBetween: 80
         },
     }
 });
