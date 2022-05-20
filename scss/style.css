@@ -11125,7 +11125,6 @@ textarea.form-control-lg {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11280,17 +11279,20 @@ textarea.form-control-lg {
 .categories {
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  width: 70rem;
+  width: auto;
   margin: auto;
   font-size: 16px;
   justify-content: space-between;
   font-weight: 600;
   text-transform: capitalize;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .products {
   margin: 5rem auto;
+}
+.products__productCard {
+  border-radius: 50px;
 }
 .products__productInfo {
   background-color: #f8f8f8;

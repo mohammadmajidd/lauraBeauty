@@ -1,6 +1,10 @@
 @use "../costum";
 .products{
   margin: 5rem auto;
+  &__productCard{
+
+    border-radius: 50px;
+  }
   &__productInfo{
     background-color: #f8f8f8;
     border-radius: 30px;

@@ -177,7 +177,7 @@
 <section class="products p-5  productSummary">
     <div class="container ">
         <h2 class=" text-center fw-bold mt-5"><span>Various products</span></h2>
-        <div class="container bg-white imageContainer d-sm-none d-md-block">
+        <div class="container bg-white imageContainer d-sm-none d-lg-block">
             <div class="row">
                 <div class="col-1">
                     <img class="rounded" src="images/left.png">
@@ -203,36 +203,24 @@
             </div>
         </div>
         <div class="container categories mt-5">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
+            <nav class="nav nav-pills nav-fill ">
                     <a class="nav-link active text-black bg-primary" aria-current="page" href="#">face</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-black" href="#">lip</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-black" href="#">eye</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-black" href="#">eyebrow</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-black" href="#">fingernail</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-black" href="#">cosmetic tools</a>
-                </li>
-            </ul>
+            </nav>
         </div>
         <!--product section-->
         <section class="container mt-4 productSection">
             <div class=" products">
-                <div class="row g-4">
+                <div class="row row-cols-md-1 g-4">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="col">
-                                    <div class="card rounded border-0">
+                                    <div class="card rounded border-0 bg products__productCard">
                                         <div class="card-header bg-transparent border-0">
                                             <div class="d-flex justify-content-between">
                                                 <img src="images/gray-like.svg">
@@ -242,7 +230,7 @@
                                         <img src="images/make%20up%20palette%20box%20.png" class="card-img-top"
                                              alt="palette">
                                         <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
+                                            <h5 class="card-title text-start">product name</h5>
                                             <div class="products__productInfo">
                                                 <p>view details</p>
                                                 <div class="products__footer">
@@ -256,7 +244,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="col">
-                                    <div class="card border-0">
+                                    <div class="card rounded border-0 bg products__productCard">
                                         <div class="card-header bg-transparent border-0">
                                             <div class="d-flex justify-content-between">
                                                 <img src="images/pink-like.svg">
@@ -266,73 +254,7 @@
                                         <img src="images/face%20cream.png" class="card-img-top"
                                              alt="cream">
                                         <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
-                                            <div class="products__productInfo">
-                                                <p>view details</p>
-                                                <div class="products__footer">
-                                                    <p>$240</p>
-                                                    <button>+</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col ">
-                                    <div class="card border-0">
-                                        <div class="d-flex justify-content-between">
-                                            <img src="images/gray-like.svg">
-                                            <p>new</p>
-                                        </div>
-                                        <img src="images/make%20up%20palette%20box%20.png" class="card-img-top"
-                                             alt="palette">
-                                        <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
-                                            <div class="products__productInfo">
-                                                <p>view details</p>
-                                                <div class="products__footer">
-                                                    <p>$240</p>
-                                                    <button>+</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col ">
-                                    <div class="card border-0">
-                                        <div class="d-flex justify-content-between">
-                                            <img src="images/pink-like.svg">
-                                            <p>new</p>
-                                        </div>
-                                        <img src="images/face%20cream.png" class="card-img-top"
-                                             alt="cream">
-                                        <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
-                                            <div class="products__productInfo">
-                                                <p>view details</p>
-                                                <div class="products__footer">
-                                                    <p>$240</p>
-                                                    <button>+</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col ">
-                                    <div class="card border-0">
-                                        <div class="d-flex justify-content-between">
-                                            <img src="images/gray-like.svg">
-                                            <p>new</p>
-                                        </div>
-                                        <img src="images/make%20up%20palette%20box%20.png" class="card-img-top"
-                                             alt="palette">
-                                        <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
+                                            <h5 class="card-title text-start">product name</h5>
                                             <div class="products__productInfo">
                                                 <p>view details</p>
                                                 <div class="products__footer">
@@ -346,15 +268,89 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="col">
-                                    <div class="card border-0">
-                                        <div class="d-flex justify-content-between">
-                                            <img src="images/gray-like.svg">
-                                            <p>new</p>
+                                    <div class="card rounded border-0 bg products__productCard">
+                                        <div class="card-header bg-transparent border-0">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="images/gray-like.svg">
+                                                <p>new</p>
+                                            </div>
+                                        </div>
+                                        <img src="images/make%20up%20palette%20box%20.png" class="card-img-top"
+                                             alt="palette">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-start">product name</h5>
+                                            <div class="products__productInfo">
+                                                <p>view details</p>
+                                                <div class="products__footer">
+                                                    <p>$240</p>
+                                                    <button>+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="col">
+                                    <div class="card rounded border-0 bg products__productCard">
+                                        <div class="card-header bg-transparent border-0">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="images/pink-like.svg">
+                                                <p>new</p>
+                                            </div>
                                         </div>
                                         <img src="images/face%20cream.png" class="card-img-top"
                                              alt="cream">
                                         <div class="card-body">
-                                            <h5 class="card-title">product name</h5>
+                                            <h5 class="card-title text-start">product name</h5>
+                                            <div class="products__productInfo">
+                                                <p>view details</p>
+                                                <div class="products__footer">
+                                                    <p>$240</p>
+                                                    <button>+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="col">
+                                    <div class="card rounded border-0 bg products__productCard">
+                                        <div class="card-header bg-transparent border-0">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="images/gray-like.svg">
+                                                <p>new</p>
+                                            </div>
+                                        </div>
+                                        <img src="images/make%20up%20palette%20box%20.png" class="card-img-top"
+                                             alt="palette">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-start">product name</h5>
+                                            <div class="products__productInfo">
+                                                <p>view details</p>
+                                                <div class="products__footer">
+                                                    <p>$240</p>
+                                                    <button>+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="col">
+                                    <div class="card rounded border-0 bg products__productCard">
+                                        <div class="card-header bg-transparent border-0">
+                                            <div class="d-flex justify-content-between">
+                                                <img src="images/pink-like.svg">
+                                                <p>new</p>
+                                            </div>
+                                        </div>
+                                        <img src="images/face%20cream.png" class="card-img-top"
+                                             alt="cream">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-start">product name</h5>
                                             <div class="products__productInfo">
                                                 <p>view details</p>
                                                 <div class="products__footer">
