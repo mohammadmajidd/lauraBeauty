@@ -11931,6 +11931,18 @@ textarea.form-control-lg {
   margin: 5rem auto;
 }
 
+.comments h2 {
+  margin-bottom: 5rem;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+  font-weight: bold;
+}
+
+.comments h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
 .comments__commentCard {
   width: 40rem;
   height: 15rem;
