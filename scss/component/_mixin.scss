@@ -1,5 +1,16 @@
 //BACKGROUND MIXIN
+$breakpoints:(
+'x-small':0,
+'small':576,
+'medium':768,
+'large':992,
+'x-large':1200,
+'xx-large':1400,
+);
 @mixin btn{
   background-color: #c24b71;
   color: #ffffff;
+}
+@mixin mainColor{
+  color: #c24b71;
 }

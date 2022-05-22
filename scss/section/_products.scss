@@ -1,4 +1,4 @@
-@use "../costum";
+@use "../costum" as *;
 
 .products {
   margin: 5rem auto;
@@ -20,7 +20,7 @@
     padding: 0.5rem;
 
     span {
-      background-color: #c24b71;
+      background-color: $primary;
       font-size: 8px;
       border-radius: 8px;
       padding: 5px;
@@ -31,6 +31,7 @@
       letter-spacing: 0.48px;
       text-align: left;
       color: #fff;
+      text-transform: capitalize;
     }
   }
 
@@ -54,7 +55,7 @@
   &__footer {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 
     span {
       font-weight: bold;
@@ -63,9 +64,12 @@
 
 
     button {
-      background-color: white;
-      color: #c24b71;
-      border-radius: 5px;
+      background-color: #ffffff;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      margin-left: 0.5rem;
+      padding: 0.2rem 0.4rem;
+      color: $primary;
+      border-radius: 50%;
       border: none;
     }
   }

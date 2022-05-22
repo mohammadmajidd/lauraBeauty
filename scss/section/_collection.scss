@@ -1,4 +1,4 @@
-
+@use "../costum" as *;
 .collection{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -26,6 +26,6 @@
     //background-color: #c24b71;
   }
   .elf{
-   background-color: #c24b71;
+   background-color: $primary;
   }
 }

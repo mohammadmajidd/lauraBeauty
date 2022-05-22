@@ -1,17 +1,22 @@
 .footer {
   background-color: #f7f3f0;
-  &__logo{
+
+
+  &__logo {
     display: flex;
     justify-content: center;
-    img{
+
+    img {
       width: 5rem;
     }
   }
+
   &__nav {
     display: flex;
     justify-content: center;
   }
-  &__iconSvg{
+
+  &__iconSvg {
     display: flex;
     justify-content: center;
   }

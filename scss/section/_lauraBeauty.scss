@@ -1,4 +1,4 @@
-
+@use "../costum" as *;
 .lauraBeauty {
   margin: 5rem auto;
 
@@ -6,7 +6,7 @@
     font-weight: bold;
 
     span {
-      color: #c24b71;
+      color: $primary;
     }
   }
 

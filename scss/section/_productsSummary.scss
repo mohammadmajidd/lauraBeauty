@@ -1,5 +1,7 @@
+@use "../costum" as *;
+@use "../component/mixin" as *;
 .productSummary{
-  background-color: #c24b71;
+  background-color: $primary;
   h2{
     border-bottom: 1px solid #ddd;
     line-height: 0.1em;
@@ -11,20 +13,26 @@
     }
   }
   .imageContainer {
+    margin: auto;
+    @include media-breakpoint-down(lg){
+    img{
+      display: none;
+    }
+    }
     &__counter {
       font-weight: bold;
-      font-size: 120px;
+      font-size: 8rem;
       color: #cccccc;
 
       span {
-        font-size: 60px;
+        font-size: 4rem;
       }
     }
 
     .item {
       font-weight: bold;
       &__pink {
-        color: #c24b71;
+        color: $primary;
       }
     }
   }

@@ -1,7 +1,9 @@
-@use "../costum";
-@use "./mixin";
+@use "../costum"as *;
+@use "./mixin"as *;
+
 .btn {
-  //@include media-breakpoint-down(sm) {
-  //  display: none;
-  //}
+  background-color:$primary ;
+  border: none;
+  color: $white;
+  border-radius: 25px;
 }
