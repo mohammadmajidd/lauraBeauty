@@ -4,6 +4,7 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    rewind:true,
     breakpoints: {
         540: {
             slidesPerView: 1.5,
@@ -46,7 +47,7 @@ let swiper2 = new Swiper(".Swiper", {
             spaceBetween: 40
         },
         726: {
-            slidesPerView: 1,
+            slidesPerView: 0.5,
             spaceBetween: 30
         },
         960: {

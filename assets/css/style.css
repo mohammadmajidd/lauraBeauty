@@ -12043,19 +12043,30 @@ textarea.form-control-lg {
   padding: 1.5rem;
 }
 
+.title {
+  border-bottom: 0.5px solid #ddd;
+  line-height: 0.1em;
+  margin-bottom: 5rem;
+  margin-top: 130px;
+}
+
+.title span {
+  color: #271d20;
+  font-weight: bold;
+  font-size: 2.5rem;
+  background: #ffffff;
+  padding: 0 10px;
+}
+
+.title span label {
+  color: #c24b71;
+}
+
 .lauraBeauty {
   margin: 5rem auto;
 }
 
-.lauraBeauty h2 {
-  font-weight: bold;
-}
-
-.lauraBeauty h2 span {
-  color: #c24b71;
-}
-
-.lauraBeauty p {
+.lauraBeauty__description {
   font-size: 16px;
   font-weight: 500;
   text-align: left;
