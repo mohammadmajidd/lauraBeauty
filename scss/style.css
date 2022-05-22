@@ -11213,7 +11213,7 @@ textarea.form-control-lg {
   color: #c24b71;
 }
 .introSection__intro p {
-  font-weight: bold;
+  font-weight: 600;
 }
 .introSection button {
   background-color: #c24b71;
@@ -11228,6 +11228,10 @@ textarea.form-control-lg {
 .collection {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+.collection .card-body h5 {
+  color: #6a5b60;
+  font-size: 1.5rem;
 }
 .collection h2 {
   margin-bottom: 5rem;
@@ -11267,27 +11271,48 @@ textarea.form-control-lg {
   background: #f7f3f0;
   padding: 0 10px;
 }
-.productSummary .imageContainer {
+.productSummary__imageContainer {
   margin: auto;
 }
+.productSummary__imageContainer__leftImage {
+  background-color: #f7f3f0;
+}
 @media (max-width: 991.98px) {
-  .productSummary .imageContainer img {
+  .productSummary__imageContainer img {
     display: none;
   }
 }
-.productSummary .imageContainer__counter {
+.productSummary__imageContainer__counter {
   font-weight: bold;
   font-size: 8rem;
   color: #cccccc;
+  line-height: normal;
 }
-.productSummary .imageContainer__counter span {
+.productSummary__imageContainer__counter__pinkItem {
+  font-weight: bold;
+  font-size: 8rem;
+  color: #c24b71;
+  line-height: normal;
+}
+.productSummary__imageContainer__counter span {
   font-size: 4rem;
 }
-.productSummary .imageContainer .item {
-  font-weight: bold;
+.productSummary__imageContainer__item {
+  font-size: 20px;
+  font-weight: 600;
+  color: #cccccc;
 }
-.productSummary .imageContainer .item__pink {
+.productSummary__imageContainer__item__pink {
   color: #c24b71;
+  font-size: 20px;
+  font-weight: 600;
+}
+.productSummary__navbar .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  letter-spacing: 0.96px;
+  color: #271d20;
 }
 
 .products {
@@ -11440,21 +11465,22 @@ textarea.form-control-lg {
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
-  font-style: normal;
   line-height: 1.56;
   letter-spacing: normal;
   color: #999;
 }
 .comments__commentCard img {
   width: 4rem;
-  margin: -2rem auto auto;
+  margin: -3.5rem auto auto;
 }
 .comments .centerCard {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.15);
   background-color: #fff;
+  padding: 1.5rem;
 }
 .comments .sideCard {
   background-color: #f0f5f8;
+  padding: 1.5rem;
 }
 
 .lauraBeauty {

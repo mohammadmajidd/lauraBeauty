@@ -1,31 +1,46 @@
 @use "../costum" as *;
-.collection{
+
+.collection {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  h2{
+
+  .card-body {
+    h5 {
+      color: #6a5b60;
+      font-size: 1.5rem;
+
+    }
+  }
+
+  h2 {
     margin-bottom: 5rem;
     border-bottom: 1px solid #ddd;
     line-height: 0.1em;
     font-weight: bold;
-    span{
+
+    span {
       background: #fff;
       padding: 0 10px;
     }
   }
-  &__card{
+
+  &__card {
     box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     width: 12rem;
     height: 15rem;
     padding-top: 2rem;
-    img{
+
+    img {
       margin: 1rem auto;
       width: 80px;
     }
 
+
     //background-color: #c24b71;
   }
-  .elf{
-   background-color: $primary;
+
+  .elf {
+    background-color: $primary;
   }
 }

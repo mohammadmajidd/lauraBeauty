@@ -1,39 +1,70 @@
 @use "../costum" as *;
 @use "../component/mixin" as *;
-.productSummary{
+
+.productSummary {
   background-color: $primary;
-  h2{
+
+  h2 {
     border-bottom: 1px solid #ddd;
     line-height: 0.1em;
     margin-bottom: 5rem;
     margin-top: 130px;
+
     span {
       background: #f7f3f0;
       padding: 0 10px;
     }
   }
-  .imageContainer {
+
+  &__imageContainer {
     margin: auto;
-    @include media-breakpoint-down(lg){
-    img{
-      display: none;
+    &__leftImage{
+      background-color: #f7f3f0;
     }
+    @include media-breakpoint-down(lg) {
+      img {
+        display: none;
+      }
     }
+
     &__counter {
       font-weight: bold;
       font-size: 8rem;
       color: #cccccc;
+      line-height: normal;
+      &__pinkItem{
+        font-weight: bold;
+        font-size: 8rem;
+        color: #c24b71;
+        line-height: normal;
 
+      }
       span {
         font-size: 4rem;
       }
     }
 
-    .item {
-      font-weight: bold;
+    &__item {
+      font-size: 20px;
+      font-weight: 600;
+      color: #cccccc;
+
       &__pink {
         color: $primary;
+        font-size: 20px;
+        font-weight: 600;
       }
     }
+  }
+  &__navbar{
+     .nav-link{
+       font-size: 16px;
+       font-weight: 600;
+       font-stretch: normal;
+       letter-spacing: 0.96px;
+
+       color: #271d20;
+     }
+
   }
 }
