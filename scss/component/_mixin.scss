@@ -1,19 +1,16 @@
-//BACKGROUND MIXIN
-$breakpoints:(
-'x-small':0,
-'small':576,
-'medium':768,
-'large':992,
-'x-large':1200,
-'xx-large':1400,
-);
-@mixin btn{
+
+$smallWidth: 480px;
+$mediumWidth: 768px;
+$largeWidth: 1024px;
+@mixin btn {
   background-color: #c24b71;
   color: #ffffff;
 }
-@mixin mainColor{
+
+@mixin mainColor {
   color: #c24b71;
 }
+
 @mixin commentCard {
   border-radius: 60px 60px 0 0;
   border: none;
@@ -27,4 +24,45 @@ $breakpoints:(
   font-style: normal;
   letter-spacing: normal;
   text-align: left;
+}
+
+@mixin extra-Small {
+  @media (max-width: #{$smallWidth - 1px}) {
+    @content;
+  }
+}
+
+@mixin small-down {
+  @media(max-width: #{$mediumWidth - 1px}) {;
+  }
+}
+
+@mixin small-only {
+  @media (min-width: #{$smallWidth}) and (max-width: #{$mediumWidth - 1px}) {
+    @content;
+  }
+}
+
+@mixin small-up {
+  @media (min-width: #{$smallWidth}) {
+    @content;
+  }
+}
+
+@mixin medium-only {
+  @media (min-width: #{$mediumWidth}) and (max-width: #{$largeWidth - 1px}) {
+    @content;
+  }
+}
+
+@mixin medium-up {
+  @media (min-width: #{$mediumWidth}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$largeWidth}) {
+    @content;
+  }
 }
