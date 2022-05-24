@@ -11952,6 +11952,9 @@ textarea.form-control-lg {
 
 .consultation__consultationBox {
   border: none;
+  box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 100px;
 }
 
 .consultation__consultationBox img {
@@ -11974,6 +11977,11 @@ textarea.form-control-lg {
     text-align: center;
   }
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .consultation form {
+    text-align: center;
+  }
+}
 .consultation form input {
   border: solid 1px #ccc;
   width: 25rem;
@@ -11985,11 +11993,6 @@ textarea.form-control-lg {
 @media (max-width: 479px) {
   .consultation form input {
     max-width: 15rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .consultation form input {
-    max-width: 20rem;
   }
 }
 .consultation form ::placeholder {
@@ -12017,16 +12020,18 @@ textarea.form-control-lg {
     margin-top: 1.2rem;
   }
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 768px) {
   .consultation h2 {
     text-align: center;
     margin-top: 1rem;
     font-size: 1.7rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .consultation h2 {
     font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 .heading {

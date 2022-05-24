@@ -1,7 +1,9 @@
 
 $smallWidth: 480px;
 $mediumWidth: 768px;
-$largeWidth: 1024px;
+$largeWidth: 1200px;
+//$x-largeWidth: 1400x;
+
 @mixin btn {
   background-color: #c24b71;
   color: #ffffff;
@@ -33,7 +35,8 @@ $largeWidth: 1024px;
 }
 
 @mixin small-down {
-  @media(max-width: #{$mediumWidth - 1px}) {;
+  @media (max-width: #{$mediumWidth}) {
+    @content;
   }
 }
 

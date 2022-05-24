@@ -7,6 +7,9 @@
 
   &__consultationBox {
     border: none;
+    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 100px;
     @include extra-Small {
       //background-color: rebeccapurple;
     }
@@ -18,6 +21,9 @@
     }
     @include medium-only{
       //background-color: olive;
+    }
+    @include small-down{
+      //background-color: #0c4128;
     }
 
     img {
@@ -37,6 +43,9 @@
     @include small-only {
       text-align: center;
     }
+    @include medium-only {
+      text-align: center;
+    }
     input {
       border: solid 1px #ccc;
       width: 25rem;
@@ -47,7 +56,7 @@
         max-width: 15rem;
       }
       @include medium-only{
-        max-width: 20rem;
+        //max-width: 20rem;
       }
     }
 
@@ -73,13 +82,15 @@
       font-size: 1.3rem;
       margin-top: 1.2rem;
     }
-    @include small-only {
+    @include small-down {
       text-align: center;
       margin-top: 1rem;
       font-size: 1.7rem;
     }
     @include medium-only{
       font-size: 2rem;
+      text-align: center;
+      margin-top: 1rem;
     }
 
   }
