@@ -12,18 +12,6 @@
     }
   }
 
-  h2 {
-    margin-bottom: 5rem;
-    border-bottom: 1px solid #ddd;
-    line-height: 0.1em;
-    font-weight: bold;
-
-    span {
-      background: #fff;
-      padding: 0 10px;
-    }
-  }
-
   &__card {
     box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
     border-radius: 50px;
@@ -36,8 +24,6 @@
       width: 80px;
     }
 
-
-    //background-color: #c24b71;
   }
 
   .elf {

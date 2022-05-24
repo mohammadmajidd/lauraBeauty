@@ -16,31 +16,37 @@
     }
   }
 
-  &__imageContainer {
-    margin: auto;
-    &__leftImage{
+    &__imageContainer {
+    background-color: #ffffff;
+    //max-width: 80vw;
+    //margin-top: 130px;
+
+    img {
+      height: 100%;
+      padding: 0;
       background-color: #f7f3f0;
     }
-    @include media-breakpoint-down(lg) {
-      img {
-        display: none;
-      }
-    }
+
 
     &__counter {
       font-weight: bold;
       font-size: 8rem;
       color: #cccccc;
-      line-height: normal;
-      &__pinkItem{
+      padding: 0;
+      margin: 0;
+
+      &__pinkItem {
         font-weight: bold;
-        font-size: 8rem;
+        font-size: 7rem;
         color: #c24b71;
-        line-height: normal;
+        padding: 0;
+        margin: 0;
 
       }
+
       span {
         font-size: 4rem;
+
       }
     }
 
@@ -48,23 +54,29 @@
       font-size: 20px;
       font-weight: 600;
       color: #cccccc;
+      padding: 0;
+      margin: 0;
+
 
       &__pink {
         color: $primary;
         font-size: 20px;
         font-weight: 600;
+        padding: 0;
+        margin: 0;
+
       }
     }
   }
-  &__navbar{
-     .nav-link{
-       font-size: 16px;
-       font-weight: 600;
-       font-stretch: normal;
-       letter-spacing: 0.96px;
 
-       color: #271d20;
-     }
+  &__navbar {
+    .nav-link {
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      letter-spacing: 0.96px;
+      color: #271d20;
+    }
 
   }
 }

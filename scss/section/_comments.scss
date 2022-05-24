@@ -1,18 +1,17 @@
-.comments {
-  margin: 5rem auto;
+.heading {
+  margin-bottom: 5rem;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+  font-weight: bold;
+  margin-top: 5rem;
 
-  h2 {
-    margin-bottom: 5rem;
-    border-bottom: 1px solid #ddd;
-    line-height: 0.1em;
-    font-weight: bold;
-
-    span {
-      background: #fff;
-      padding: 0 10px;
-    }
+  span {
+    background: #fff;
+    padding: 0 10px;
   }
+}
 
+.comments {
   &__commentCard {
     width: 40rem;
     height: 15rem;

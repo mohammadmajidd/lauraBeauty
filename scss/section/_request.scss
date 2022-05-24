@@ -7,11 +7,10 @@
 
   &__consultationBox {
     border: none;
-    object-fit: cover;
 
     img {
-      width: 40rem;
-      height: 20rem;
+      width: 100%;
+      height: 100%;
       margin: auto;
     }
 
@@ -20,15 +19,15 @@
   form {
     input {
       border: solid 1px #ccc;
-      width: 20rem;
+      width: 25rem;
       border-radius: 30px;
-      padding: 0.8rem;
+      padding: 0.6rem;
       margin: 2rem auto;
     }
 
     button {
       @include btn;
-      padding: 0.8rem 2rem;
+      padding: 0.6rem 2rem;
       border-radius: 30px;
     }
   }
@@ -36,7 +35,8 @@
 
   h2 {
     font-weight: bold;
-    min-width: 2rem;
+    font-size: 2.5rem;
+
   }
 
 }

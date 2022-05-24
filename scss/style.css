@@ -11125,10 +11125,6 @@ textarea.form-control-lg {
   border-radius: 25px;
 }
 
-.swiper-button-next {
-  width: 1rem;
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -11233,16 +11229,6 @@ textarea.form-control-lg {
   color: #6a5b60;
   font-size: 1.5rem;
 }
-.collection h2 {
-  margin-bottom: 5rem;
-  border-bottom: 1px solid #ddd;
-  line-height: 0.1em;
-  font-weight: bold;
-}
-.collection h2 span {
-  background: #fff;
-  padding: 0 10px;
-}
 .collection__card {
   box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.1);
   border-radius: 50px;
@@ -11272,27 +11258,26 @@ textarea.form-control-lg {
   padding: 0 10px;
 }
 .productSummary__imageContainer {
-  margin: auto;
+  background-color: #ffffff;
 }
-.productSummary__imageContainer__leftImage {
+.productSummary__imageContainer img {
+  height: 100%;
+  padding: 0;
   background-color: #f7f3f0;
-}
-@media (max-width: 991.98px) {
-  .productSummary__imageContainer img {
-    display: none;
-  }
 }
 .productSummary__imageContainer__counter {
   font-weight: bold;
   font-size: 8rem;
   color: #cccccc;
-  line-height: normal;
+  padding: 0;
+  margin: 0;
 }
 .productSummary__imageContainer__counter__pinkItem {
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #c24b71;
-  line-height: normal;
+  padding: 0;
+  margin: 0;
 }
 .productSummary__imageContainer__counter span {
   font-size: 4rem;
@@ -11301,11 +11286,15 @@ textarea.form-control-lg {
   font-size: 20px;
   font-weight: 600;
   color: #cccccc;
+  padding: 0;
+  margin: 0;
 }
 .productSummary__imageContainer__item__pink {
   color: #c24b71;
   font-size: 20px;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 .productSummary__navbar .nav-link {
   font-size: 16px;
@@ -11416,44 +11405,42 @@ textarea.form-control-lg {
 }
 .consultation__consultationBox {
   border: none;
-  object-fit: cover;
 }
 .consultation__consultationBox img {
-  width: 40rem;
-  height: 20rem;
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
 .consultation form input {
   border: solid 1px #ccc;
-  width: 20rem;
+  width: 25rem;
   border-radius: 30px;
-  padding: 0.8rem;
+  padding: 0.6rem;
   margin: 2rem auto;
 }
 .consultation form button {
   background-color: #c24b71;
   color: #ffffff;
-  padding: 0.8rem 2rem;
+  padding: 0.6rem 2rem;
   border-radius: 30px;
 }
 .consultation h2 {
   font-weight: bold;
-  min-width: 2rem;
+  font-size: 2.5rem;
 }
 
-.comments {
-  margin: 5rem auto;
-}
-.comments h2 {
+.heading {
   margin-bottom: 5rem;
   border-bottom: 1px solid #ddd;
   line-height: 0.1em;
   font-weight: bold;
+  margin-top: 5rem;
 }
-.comments h2 span {
+.heading span {
   background: #fff;
   padding: 0 10px;
 }
+
 .comments__commentCard {
   width: 40rem;
   height: 15rem;
