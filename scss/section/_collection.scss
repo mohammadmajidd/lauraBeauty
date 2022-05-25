@@ -1,8 +1,16 @@
 @use "../costum" as *;
+@use "../component/mixin" as *;
 
 .collection {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  //background-color: #0c4128;
+  height: auto;
+  &__row {
+
+
+
+  }
 
   .card-body {
     h5 {

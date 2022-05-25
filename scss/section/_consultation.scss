@@ -25,6 +25,12 @@
     @include small-down{
       //background-color: #0c4128;
     }
+    @include large{
+      //background-color: #271d20;
+    }
+    @include large-Down{
+      //background-color: #0c4128;
+    }
 
     img {
       width: 100%;

@@ -13,7 +13,7 @@
 @use "section/productsSummary";
 @use "section/categoryNav";
 @use "section/products";
-@use "section/request";
+@use "section/consultation";
 @use "section/comments";
 @use "section/lauraBeauty";
 @use "section/footer";
@@ -21,6 +21,11 @@ body{
   //width: 1920px;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 

@@ -1,6 +1,9 @@
 .footer {
+  //background-image: url("/components/images/footer.svg");
+  //background-size: cover;
+  //background-position: center;
+  //height: 120px;
   background-color: #f7f3f0;
-
 
   &__logo {
     display: flex;
@@ -11,10 +14,18 @@
     }
   }
 
-  &__nav {
+  &__nav ul {
     display: flex;
     justify-content: center;
+    gap: 50px;
+
+    a {
+      letter-spacing: 1.08px;
+      font-size: 18px;
+      font-weight: 600;
+    }
   }
+
 
   &__iconSvg {
     display: flex;

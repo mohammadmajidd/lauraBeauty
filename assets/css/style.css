@@ -11662,7 +11662,6 @@ textarea.form-control-lg {
 
 .card__comment {
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.15);
-  background-color: #fff;
   border-radius: 60px 60px 0 0;
   border: none;
   line-height: 1.56;
@@ -11670,7 +11669,7 @@ textarea.form-control-lg {
   font-size: 16px;
   padding: 1rem;
   font-weight: 500;
-  width: 600px;
+  width: 39rem;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -11686,7 +11685,7 @@ textarea.form-control-lg {
   font-size: 16px;
   padding: 1rem;
   font-weight: 500;
-  width: 600px;
+  width: 39rem;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -11726,6 +11725,11 @@ textarea.form-control-lg {
   margin: 5rem auto;
 }
 
+@media (max-width: 768px) {
+  .introSection__intro h1 {
+    font-size: 65px;
+  }
+}
 .introSection__intro h1 span {
   color: #c24b71;
 }
@@ -11747,6 +11751,7 @@ textarea.form-control-lg {
 .collection {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  height: auto;
 }
 
 .collection .card-body h5 {
@@ -11900,7 +11905,7 @@ textarea.form-control-lg {
 .products__productInfo {
   background-color: #f8f8f8;
   border-radius: 30px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11928,8 +11933,8 @@ textarea.form-control-lg {
 .products__footer button {
   background-color: #ffffff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  margin-left: 0.5rem;
-  padding: 0.2rem 0.4rem;
+  margin-left: 0.7rem;
+  padding: 0.25rem 0.55rem;
   color: #c24b71;
   border-radius: 50%;
   border: none;
@@ -11967,17 +11972,17 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .consultation form {
     text-align: center;
   }
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .consultation form {
     text-align: center;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .consultation form {
     text-align: center;
   }
@@ -11990,7 +11995,7 @@ textarea.form-control-lg {
   margin: 2rem auto;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .consultation form input {
     max-width: 15rem;
   }
@@ -12013,7 +12018,7 @@ textarea.form-control-lg {
   font-size: 2.5rem;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 575px) {
   .consultation h2 {
     text-align: center;
     font-size: 1.3rem;
@@ -12027,7 +12032,7 @@ textarea.form-control-lg {
     font-size: 1.7rem;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .consultation h2 {
     font-size: 2rem;
     text-align: center;
@@ -12123,9 +12128,16 @@ textarea.form-control-lg {
   width: 5rem;
 }
 
-.footer__nav {
+.footer__nav ul {
   display: flex;
   justify-content: center;
+  gap: 50px;
+}
+
+.footer__nav ul a {
+  letter-spacing: 1.08px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footer__iconSvg {
@@ -12136,6 +12148,12 @@ textarea.form-control-lg {
 body {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=style.css.map */

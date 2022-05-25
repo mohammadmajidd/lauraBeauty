@@ -39,17 +39,21 @@ let swiper2 = new Swiper(".Swiper", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
+        240: {
+            slidesPerView: 0.8,
+            spaceBetween: 90
+        },
         340: {
-            slidesPerView: 0.5,
+            slidesPerView: 0.2,
             spaceBetween: 40
         },
         540: {
             slidesPerView: 0.5,
-            spaceBetween: 40
+            spaceBetween: 0
         },
         726: {
-            slidesPerView: 0.5,
-            spaceBetween: 30
+            slidesPerView: 0.9,
+            spaceBetween: 80
         },
         960: {
             slidesPerView:1,
@@ -64,11 +68,12 @@ let swiper2 = new Swiper(".Swiper", {
             spaceBetween: 10
         },
         1400: {
-            slidesPerView: 2,
-            spaceBetween: 40
+            slidesPerView: 1.9,
+            spaceBetween: 0
         },
 
     },
+    initialSlide:1
 
 });
 
