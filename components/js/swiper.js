@@ -7,19 +7,19 @@ var swiper = new Swiper(".mySwiper", {
 
     breakpoints: {
         540: {
-            slidesPerView: 1.5,
+            slidesPerView: 2,
             spaceBetween: 40
         },
         726: {
-            slidesPerView: 2,
+            slidesPerView:3,
             spaceBetween: 30
         },
         960: {
-            slidesPerView: 2.5,
+            slidesPerView: 3,
             spaceBetween: 50
         },
         1140: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 10
         },
         1320: {
@@ -27,11 +27,11 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 40
         },
         1400: {
-            slidesPerView: 5,
-            spaceBetween: 60
+            slidesPerView: 4.5,
+            spaceBetween: 0
         },
     },
-    loop:true,
+    // loop: true,
 });
 let swiper2 = new Swiper(".Swiper", {
     navigation: {
@@ -40,40 +40,40 @@ let swiper2 = new Swiper(".Swiper", {
     },
     breakpoints: {
         240: {
-            slidesPerView: 0.8,
+            slidesPerView: 1,
             spaceBetween: 90
         },
         340: {
-            slidesPerView: 0.2,
+            slidesPerView: 1,
             spaceBetween: 40
         },
         540: {
-            slidesPerView: 0.5,
+            slidesPerView: 1,
             spaceBetween: 0
         },
         726: {
-            slidesPerView: 0.9,
+            slidesPerView:1,
             spaceBetween: 80
         },
         960: {
-            slidesPerView:1,
-            spaceBetween: 50
+            slidesPerView: 2,
+            spaceBetween: 20
         },
         1140: {
-            slidesPerView:1.4,
-            spaceBetween: 10
+            slidesPerView: 1.2,
+            spaceBetween: 90
         },
         1320: {
-            slidesPerView: 1.6,
+            slidesPerView: 3,
             spaceBetween: 10
         },
         1400: {
-            slidesPerView: 1.9,
-            spaceBetween: 0
+            slidesPerView: 1.8,
+            spaceBetween: 20
         },
 
     },
-    initialSlide:1
-
+    // initialSlide: 1,
+    // loop: true
 });
 

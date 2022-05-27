@@ -11125,6 +11125,10 @@ textarea.form-control-lg {
   border-radius: 25px;
 }
 
+.swiper {
+  padding: 2.5rem 0;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -11332,10 +11336,7 @@ textarea.form-control-lg {
   margin: 5rem auto;
 }
 .products__productCard {
-  width: 16rem;
-  height: 20rem;
   border-radius: 30px;
-  margin-left: 30px;
 }
 .products__imageCard {
   text-align: center;
@@ -11499,10 +11500,8 @@ textarea.form-control-lg {
 }
 
 .comments__commentCard {
-  width: 40rem;
-  height: 15rem;
   border: none;
-  border-radius: 40px 40px 5px 5px;
+  border-radius: 80px 80px 5px 5px;
 }
 .comments__commentCard p {
   text-align: left;
@@ -11511,11 +11510,15 @@ textarea.form-control-lg {
   font-stretch: normal;
   line-height: 1.56;
   letter-spacing: normal;
-  color: #999;
+  color: #999999;
 }
-.comments__commentCard img {
-  width: 4rem;
-  margin: -3.5rem auto auto;
+.comments__commentCard__cardMedia {
+  width: 80px;
+  margin: auto;
+}
+.comments__commentCard__cardMedia img {
+  width: 100%;
+  margin: -4.5rem auto auto;
 }
 .comments .centerCard {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.15);
@@ -11555,7 +11558,12 @@ textarea.form-control-lg {
 }
 
 .footer {
+  background-image: url("/components/images/footer.svg");
+  background-size: cover;
   background-color: #f7f3f0;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  padding: 20px;
 }
 .footer__logo {
   display: flex;

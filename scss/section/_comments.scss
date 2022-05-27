@@ -1,4 +1,5 @@
 @use "../component/mixin" as *;
+
 .heading {
   margin-bottom: 5rem;
   border-bottom: 1px solid #ddd;
@@ -14,10 +15,8 @@
 
 .comments {
   &__commentCard {
-    width: 40rem;
-    height: 15rem;
     border: none;
-    border-radius: 40px 40px 5px 5px;
+    border-radius: 80px 80px 5px 5px;
 
     p {
       text-align: left;
@@ -26,13 +25,19 @@
       font-stretch: normal;
       line-height: 1.56;
       letter-spacing: normal;
-      color: #999;
+      color: #999999;
     }
 
-    img {
-      width: 4rem;
-      margin: -3.5rem auto auto;
+    &__cardMedia {
+      width: 80px;
+      margin: auto;
+
+      img {
+        width: 100%;
+        margin: -4.5rem auto auto;
+      }
     }
+
 
   }
 
